@@ -4,9 +4,17 @@
   "description": "An application for sending your first AMP Email with SendGrid",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "send": "nodenv send-email.js --force"
   },
-  "keywords": ["AMP Email", "SendGrid"],
+  "keywords": [
+    "AMP Email",
+    "SendGrid"
+  ],
   "author": "Phil Nash <philnash@twilio.com> (https://philna.sh)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "7.2.6",
+    "node-env-run": "^4.0.2"
+  }
 }
