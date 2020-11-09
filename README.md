@@ -8,4 +8,7 @@ AMP Email allows email senders to add a third MIME part on top of text and HTML 
 
 Interactive components include carousels and accordions. With dynamic components you can load live data from a server or submit data through a form within an email.
 
+## Experiments
+
+* [Send your first AMP email](./first-amp-email/)
 
