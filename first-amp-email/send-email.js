@@ -14,6 +14,9 @@ const send = async (from, to) => {
   const html = await readFile(resolve(join("emails", `email.html`)), {
     encoding: "utf-8",
   });
+  const amp = await readFile(resolve(join("emails", "email.amp.html")), {
+    encoding: "utf-8",
+  });
 
   try {
     await sendgrid.send({
@@ -28,6 +31,10 @@ const send = async (from, to) => {
         {
           type: "text/html",
           value: html,
+        },
+        {
+          type: "text/x-amp-html",
+          value: amp,
         },
       ],
       trackingSettings: {
