@@ -4,6 +4,8 @@ This project will show you how to send an AMP email using the [Twilio SendGrid A
 
 To find out more, read the blog post [Send your first interactive AMP Email with Twilio SendGrid](https://www.twilio.com/blog/send-interactive-amp-email-twilio-sendgrid).
 
+**Contents**
+
 * [Sending and receiving AMP emails](#sending-and-receiving-amp-emails)
   * [Sending AMP email](#sending-amp-email)
   * [Receiving AMP emails](#receiving-amp-emails)
